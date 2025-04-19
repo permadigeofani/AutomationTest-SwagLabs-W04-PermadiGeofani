@@ -1,7 +1,8 @@
-package com.juaracoding;
+package com.juaracoding.steps;
 
-import com.juaracoding.pages.CartPage;
-import com.juaracoding.pages.ProductPage;
+import com.juaracoding.Hook;
+import com.juaracoding.permadigeofani.automationtest.swaglabs.pages.CartPage;
+import com.juaracoding.permadigeofani.automationtest.swaglabs.pages.ProductPage;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import io.cucumber.java.en.And;
@@ -13,7 +14,7 @@ import org.testng.Assert;
 import java.util.Arrays;
 import java.util.List;
 
-public class ContinueShoppingTest {
+public class ContinueShoppingSteps {
 
     private static WebDriver driver;
     private static ExtentTest extentTest;
@@ -21,7 +22,7 @@ public class ContinueShoppingTest {
     private static final CartPage cartPage = new CartPage();
     private static final ProductPage productPage = new ProductPage();
 
-    public ContinueShoppingTest() {
+    public ContinueShoppingSteps() {
         driver = Hook.driver;
         extentTest = Hook.extentTest;
     }

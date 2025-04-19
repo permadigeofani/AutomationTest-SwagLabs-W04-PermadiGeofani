@@ -1,9 +1,10 @@
-package com.juaracoding;
+package com.juaracoding.steps;
 
-import com.juaracoding.pages.CartPage;
-import com.juaracoding.pages.LoginPage;
-import com.juaracoding.pages.ProductPage;
-import com.juaracoding.utils.Constants;
+import com.juaracoding.Hook;
+import com.juaracoding.permadigeofani.automationtest.swaglabs.pages.CartPage;
+import com.juaracoding.permadigeofani.automationtest.swaglabs.pages.LoginPage;
+import com.juaracoding.permadigeofani.automationtest.swaglabs.pages.ProductPage;
+import com.juaracoding.permadigeofani.automationtest.swaglabs.utils.Constants;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import io.cucumber.java.en.Given;
@@ -15,7 +16,7 @@ import org.testng.Assert;
 
 import java.util.List;
 
-public class AddProductTest {
+public class AddProductSteps {
 
     private static WebDriver driver;
     private static ExtentTest extentTest;
@@ -24,7 +25,7 @@ public class AddProductTest {
     private static final ProductPage productPage = new ProductPage();
     private static final CartPage cartPage = new CartPage();
 
-    public AddProductTest() {
+    public AddProductSteps() {
         driver = Hook.driver;
         extentTest = Hook.extentTest;
     }

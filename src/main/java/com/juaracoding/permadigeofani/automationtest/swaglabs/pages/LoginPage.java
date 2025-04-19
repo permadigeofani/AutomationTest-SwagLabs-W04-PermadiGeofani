@@ -1,6 +1,6 @@
-package com.juaracoding.pages;
+package com.juaracoding.permadigeofani.automationtest.swaglabs.pages;
 
-import com.juaracoding.drivers.DriverSingleton;
+import com.juaracoding.permadigeofani.automationtest.swaglabs.drivers.DriverSingleton;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

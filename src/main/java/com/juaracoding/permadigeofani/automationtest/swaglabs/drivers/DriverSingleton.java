@@ -1,8 +1,8 @@
-package com.juaracoding.drivers;
+package com.juaracoding.permadigeofani.automationtest.swaglabs.drivers;
 
-import com.juaracoding.drivers.Strategies.DriverStrategy;
-import com.juaracoding.drivers.Strategies.DriverStrategyImplementor;
-import com.juaracoding.utils.Constants;
+import com.juaracoding.permadigeofani.automationtest.swaglabs.drivers.strategies.DriverStrategy;
+import com.juaracoding.permadigeofani.automationtest.swaglabs.drivers.strategies.DriverStrategyImplementor;
+import com.juaracoding.permadigeofani.automationtest.swaglabs.utils.Constants;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 

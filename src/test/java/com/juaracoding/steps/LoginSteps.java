@@ -1,8 +1,9 @@
-package com.juaracoding;
+package com.juaracoding.steps;
 
-import com.juaracoding.pages.LoginPage;
-import com.juaracoding.pages.ProductPage;
-import com.juaracoding.utils.Constants;
+import com.juaracoding.Hook;
+import com.juaracoding.permadigeofani.automationtest.swaglabs.pages.LoginPage;
+import com.juaracoding.permadigeofani.automationtest.swaglabs.pages.ProductPage;
+import com.juaracoding.permadigeofani.automationtest.swaglabs.utils.Constants;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import io.cucumber.java.en.And;
@@ -12,14 +13,14 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-public class LoginTest {
+public class LoginSteps {
 
     private static WebDriver driver;
     private static ExtentTest extentTest;
     private static final LoginPage loginPage = new LoginPage();
     private static ProductPage productPage = new ProductPage();
 
-    public LoginTest() {
+    public LoginSteps() {
         driver = Hook.driver;
         extentTest = Hook.extentTest;
     }

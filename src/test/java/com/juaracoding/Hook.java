@@ -1,9 +1,9 @@
 package com.juaracoding;
 
-import com.juaracoding.drivers.DriverSingleton;
-import com.juaracoding.utils.Constants;
-import com.juaracoding.utils.ScenarioTest;
-import com.juaracoding.utils.Utils;
+import com.juaracoding.permadigeofani.automationtest.swaglabs.drivers.DriverSingleton;
+import com.juaracoding.permadigeofani.automationtest.swaglabs.utils.Constants;
+import com.juaracoding.permadigeofani.automationtest.swaglabs.utils.ScenarioTest;
+import com.juaracoding.permadigeofani.automationtest.swaglabs.utils.Utils;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -15,9 +15,9 @@ import java.io.IOException;
 
 public class Hook {
 
-    static WebDriver driver;
-    static ExtentTest extentTest;
-    static ExtentReports reports = new ExtentReports("target/extent-report.html");
+    public static WebDriver driver;
+    public static ExtentTest extentTest;
+    public static ExtentReports reports = new ExtentReports("target/extent-report.html");
 
     @Before
     public void setup() {
@@ -33,7 +33,7 @@ public class Hook {
 
 //    @BeforeStep
 //    public void beforeStep() {
-//        // Delay sebelum step
+//
 //        Utils.delay(1);
 //    }
 

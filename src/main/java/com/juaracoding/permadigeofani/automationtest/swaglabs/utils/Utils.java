@@ -1,4 +1,4 @@
-package com.juaracoding.utils;
+package com.juaracoding.permadigeofani.automationtest.swaglabs.utils;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;

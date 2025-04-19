@@ -1,4 +1,4 @@
-package com.juaracoding.utils;
+package com.juaracoding.permadigeofani.automationtest.swaglabs.utils;
 
 public class Constants {
 
